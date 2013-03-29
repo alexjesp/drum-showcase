@@ -9,8 +9,14 @@ body {
 }
 
 h1 {
-  font: 150px/1.5 BebasNeue;
+  font: normal 150px/1.5 BebasNeue;
+
+  -webkit-animation: 2s bulge infinite;
+}
+
+h1 a {
   color: #000;
+  text-decoration: none;
 }
 
 h1 .small {
@@ -30,4 +36,14 @@ h1 .small .second {
 p {
   font: 20px/1.2 'Oxygen', sans-serif;
   color: #222;
+}
+
+@-webkit-keyframes bulge {
+  50% {
+    font-size: 160px;
+  }
+
+  100% {
+    font-size: 150px;
+  }
 }

@@ -4,9 +4,25 @@
     <meta charset="utf-8"/>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="http://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript">
+      (function($) {
+        $(function() {
+          // $("h1 a").hover(function() {
+          //   $(this).animate({"font-size": "130px"}, "fast");
+          // }, function() {
+          //   $(this).animate({"font-size": "150px"}, "fast");
+          // });
+        });
+      }(window.jQuery));
+    </script>
   </head>
   <body>
-    <h1>Alex <span class="small"><span class="second">Esp</span></span></h1>
+    <h1>
+      <a href="#">
+        Alex <span class="small"><span class="second">Esp</span></span>
+      </a>
+    </h1>
     <p>Watch this space.</p>
   </body>
 </html>
