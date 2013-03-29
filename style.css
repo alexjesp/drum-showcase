@@ -1,0 +1,33 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url("BebasNeue.otf") format("opentype");
+}
+
+body {
+  text-align: center;
+  padding: 40px 0;
+}
+
+h1 {
+  font: 150px/1.5 BebasNeue;
+  color: #000;
+}
+
+h1 .small {
+  font-size: .7em;
+  line-height: .95em;
+  border-top: .17em solid #000;
+  display: inline-block;
+  margin-left: -.15em;
+}
+
+h1 .small .second {
+  border-top: .05em solid #000;
+  display: inline-block;
+  margin-top: .02em;
+}
+
+p {
+  font: 20px/1.2 'Oxygen', sans-serif;
+  color: #222;
+}
