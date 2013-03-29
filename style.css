@@ -3,20 +3,18 @@
   src: url("BebasNeue.otf") format("opentype");
 }
 
+* {margin: 0; padding: 0; border: 0;}
 body {
-  text-align: center;
-  padding: 40px 0;
+  background: white;
+  color: #000;
 }
 
 h1 {
+  clear: both;
+  padding-top: 50px;
+  text-align: center;
   font: normal 150px/1.5 BebasNeue;
-
-  -webkit-animation: 2s bulge infinite;
-}
-
-h1 a {
-  color: #000;
-  text-decoration: none;
+  -webkit-animation: 4s bulge ease infinite;
 }
 
 h1 .small {
@@ -33,9 +31,50 @@ h1 .small .second {
   margin-top: .02em;
 }
 
-p {
+nav {
+  float: right;
+  margin-top: 10px;
+}
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+#twitter a {
+  width: 25px;
+  height: 21px;
+  background: url(images/twitter-logo.png);
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+#youtube a {
+  width: 60px;
+  height: 22px;
+  background: url(images/youtube-logo.png);
+  text-indent: -9999px;
+  overflow: hidden;
+}
+
+footer {
   font: 20px/1.2 'Oxygen', sans-serif;
   color: #222;
+  display: block;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 40px;
 }
 
 @-webkit-keyframes bulge {
@@ -43,7 +82,7 @@ p {
     font-size: 160px;
   }
 
-  100% {
+  0%, 100% {
     font-size: 150px;
   }
 }
