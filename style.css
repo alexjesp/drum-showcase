@@ -13,6 +13,7 @@
 * {margin: 0; padding: 0; border: 0;}
 
 body {
+  border-top: 10px solid black;
   background: white;
   color: #000;
 }
