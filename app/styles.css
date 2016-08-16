@@ -1,0 +1,27 @@
+* {margin: 0; padding: 0; border: 0;}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  border-top: 10px solid black;
+  background: white;
+  color: #000;
+}
+
+.AppRoot {
+  display: flex;
+  flex-direction: column;
+}
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../fonts/BebasNeue-webfont.eot');
+    src: url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue-webfont.woff') format('woff'),
+         url('../fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('../fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

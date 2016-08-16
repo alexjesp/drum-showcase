@@ -1,0 +1,14 @@
+.Logo {
+  display: flex;
+  text-transform: uppercase;
+  font-family: BebasNeueRegular;
+}
+
+.Logo-big {
+  font-size: 10rem;
+}
+
+.Logo-small {
+  font-size: 8rem;
+  border-top: 1.5em solid black;
+}
