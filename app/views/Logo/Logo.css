@@ -2,13 +2,27 @@
   display: flex;
   text-transform: uppercase;
   font-family: BebasNeueRegular;
+  font-size: 150px;
+  height: 1.1em;
+  overflow: hidden;
+  -webkit-user-select: none;
 }
 
 .Logo-big {
-  font-size: 10rem;
+  font-size: 1em;
+}
+
+.Logo-smallWrapper {
+  margin-top: .19em;
+  margin-left: .05em;
+  border-top: .17em solid black;
 }
 
 .Logo-small {
-  font-size: 8rem;
-  border-top: 1.5em solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .65em;
+  line-height: 1.1;
+  margin: -.02em;
 }

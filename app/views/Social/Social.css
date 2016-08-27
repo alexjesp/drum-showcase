@@ -1,0 +1,30 @@
+.Social {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  position: absolute;
+  top: 25px;
+  right: 15px;
+  height: 25px;
+}
+
+.Social-item {
+  margin-right: 10px;
+  flex: none;
+  height: 25px;
+}
+
+.Social-itemLink {
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 25px;
+}
+
+.Social-itemLink:hover {
+  opacity: .8;
+  transition: opacity .3s linear;
+}
