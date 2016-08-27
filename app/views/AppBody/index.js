@@ -1,2 +1,1 @@
-import AppBody from './AppBody'
-export default AppBody
+export { default } from './AppBody'

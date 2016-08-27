@@ -12,6 +12,10 @@ const Social = (props) => {
   )
 }
 
+Social.propTypes = {
+  items: PropTypes.array
+}
+
 const SocialItem = (props, i) => {
   const { data } = props
   const style = {
@@ -31,8 +35,8 @@ const SocialItem = (props, i) => {
   )
 }
 
-Social.propTypes = {
-  items: PropTypes.array
+SocialItem.propTypes = {
+  data: PropTypes.object
 }
 
 export default Social
