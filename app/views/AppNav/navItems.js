@@ -1,13 +1,13 @@
 export default [{
-  href: '',
+  href: '/about',
   title: 'About'
 }, {
-  href: '',
+  href: '/releases',
   title: 'Releases'
 }, {
-  href: '',
+  href: '/media',
   title: 'Media'
 }, {
-  href: '',
+  href: '/contact',
   title: 'Contact'
 }]

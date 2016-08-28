@@ -1,21 +1,28 @@
-import React from 'react'
+import React, { PropTypes } from 'react'
 import Social from './views/Social'
 import Logo from './views/Logo'
 import AppNav from './views/AppNav'
-import AppBody from './views/AppBody'
+import Page from './views/Page'
 import navItems from './views/AppNav/navItems'
 import socialItems from './views/Social/socialItems'
 import './App.css'
 
-export default class App extends React.Component {
-  render () {
-    return (
-      <div className='App'>
-        <Logo />
+const App = (props) => {
+  const { params } = props
+  return (
+    <div className='App'>
+      <Logo />
+      <Social items={socialItems} />
+      <div className='App-body'>
         <AppNav items={navItems} />
-        <AppBody />
-        <Social items={socialItems} />
+        <Page pageType={params.pageType} />
       </div>
-    )
-  }
+    </div>
+  )
 }
+
+App.propTypes = {
+  params: PropTypes.object
+}
+
+export default App

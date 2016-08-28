@@ -1,4 +1,5 @@
 import React, { PropTypes } from 'react'
+import { Link } from 'react-router'
 import './AppNav.css'
 
 const AppNav = (props) => {
@@ -20,7 +21,7 @@ const AppNavItem = (props) => {
   const { data } = props
   return (
     <li className='AppNav-item'>
-      <a className='AppNav-itemLink' href={data.href}>{data.title}</a>
+      <Link className='AppNav-itemLink' to={data.href}>{data.title}</Link>
     </li>
   )
 }
