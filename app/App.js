@@ -9,6 +9,7 @@ import './App.css'
 
 const App = (props) => {
   const { params } = props
+  const year = (new Date()).getFullYear()
   return (
     <div className='App'>
       <div className='App-header'>
@@ -18,6 +19,9 @@ const App = (props) => {
       <div className='App-body'>
         <AppNav items={navItems} />
         <Page pageType={params.pageType} />
+      </div>
+      <div className='App-footer'>
+        Site and design by Alexander Esp &copy; {year}
       </div>
     </div>
   )

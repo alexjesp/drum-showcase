@@ -2,14 +2,27 @@
   align-items: center;
   display: flex;
   height: 100%;
-  justify-content: center;
   flex-direction: column;
 }
 
 .App-header {
   flex: none;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .App-body {
   display: flex;
+  padding-bottom: 4em;
+}
+
+.App-footer {
+  font-size: 11px;
+  padding-right: 3em;
+  padding-bottom: 1em;
+  text-align: right;
+  width: 100%;
 }

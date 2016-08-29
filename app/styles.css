@@ -9,10 +9,6 @@ html, body {
   height: 100%;
 }
 
-#root {
-  height: 100%;
-}
-
 body {
   border-top: 10px solid black;
   background: white;

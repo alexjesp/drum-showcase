@@ -21,7 +21,7 @@ const Release = (props) => {
         <img className='Release-image' src={data.imgSrc} />
       </a>
       <div className='Release-info'>
-        <h2>{data.title}</h2>
+        <h2 className='Release-title'>{data.title}</h2>
         <p>Some paragraph about the artist etc</p>
       </div>
     </li>

@@ -3,7 +3,8 @@ import './Page.css'
 
 const pageComponents = {
   about: require('../About').default,
-  releases: require('../Releases').default
+  releases: require('../Releases').default,
+  media: require('../Media').default
 }
 
 const Page = (props) => {
