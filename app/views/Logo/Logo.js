@@ -1,10 +1,15 @@
-import React from 'react'
+import classnames from 'classnames'
+import React, { PropTypes } from 'react'
 import { Link } from 'react-router'
 import './Logo.css'
 
-const Logo = () => {
+const Logo = (props) => {
+  const { isHome } = props
+  const className = classnames('Logo', {
+    'Logo--small': isHome
+  })
   return (
-    <h1 className='Logo'>
+    <h1 className={className}>
       <Link className='Logo-link' to='/'>
         <span className='Logo-big'>Alex</span>
         <div className='Logo-smallWrapper'>
@@ -13,6 +18,10 @@ const Logo = () => {
       </Link>
     </h1>
   )
+}
+
+Logo.propTypes = {
+  isHome: PropTypes.bool
 }
 
 export default Logo

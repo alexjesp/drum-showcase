@@ -1,4 +1,9 @@
-* {margin: 0; padding: 0; border: 0; box-sizing: border-box; }
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
 
 html, body {
   height: 100%;
@@ -12,7 +17,8 @@ body {
   border-top: 10px solid black;
   background: white;
   color: #000;
-  font-size: 14px;
+  font-size: 16px;
+  font-family: 'Cabin', sans-serif;
 }
 
 h1, h2, h3 {
@@ -25,6 +31,11 @@ a {
 
 a:visited {
   color: inherit;
+}
+
+p {
+  margin-bottom: 1em;
+  line-height: 1.6;
 }
 
 .AppRoot {

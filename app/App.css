@@ -6,6 +6,10 @@
   flex-direction: column;
 }
 
+.App-header {
+  flex: none;
+}
+
 .App-body {
   display: flex;
 }

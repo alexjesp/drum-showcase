@@ -1,0 +1,20 @@
+.Releases {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+}
+
+.Release {
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.Release-imageLink {
+  margin-right: 2em;
+}
+
+.Release-image {
+  max-width: 200px;
+  min-width: 100px;
+}

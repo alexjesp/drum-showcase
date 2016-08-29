@@ -11,8 +11,10 @@ const App = (props) => {
   const { params } = props
   return (
     <div className='App'>
-      <Logo />
-      <Social items={socialItems} />
+      <div className='App-header'>
+        <Logo isHome={!!params.pageType} />
+        <Social items={socialItems} />
+      </div>
       <div className='App-body'>
         <AppNav items={navItems} />
         <Page pageType={params.pageType} />

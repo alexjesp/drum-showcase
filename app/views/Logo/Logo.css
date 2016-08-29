@@ -3,11 +3,15 @@
   text-transform: uppercase;
   font-family: BebasNeueRegular;
   font-size: 150px;
-  height: 1.1em;
-  overflow: hidden;
+  height: 1.15em;
   -webkit-user-select: none;
   margin: 0;
   font-weight: normal;
+}
+
+.Logo--small {
+  font-size: 110px;
+  margin-left: -417px;
 }
 
 .Logo-link {
