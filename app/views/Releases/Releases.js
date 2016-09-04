@@ -22,7 +22,9 @@ const Release = (props) => {
       </a>
       <div className='Release-info'>
         <h2 className='Release-title'>{data.title}</h2>
-        <p>Some paragraph about the artist etc</p>
+        <h3 className='Release-artist'>{data.artist}</h3>
+        <span className='Release-type'>{data.type}</span>
+        <p className='Release-description'>{data.description}</p>
       </div>
     </li>
   )

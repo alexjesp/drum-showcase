@@ -1,21 +1,33 @@
 export default [{
-  imgSrc: './images/raad-indignities.jpg',
+  imgSrc: './images/theyachtclub-fall.jpg',
   href: '#',
+  title: 'Fall',
+  type: 'EP',
+  artist: 'The Yacht Club',
+  description: 'Drums, Piano, Rhodes, Organ, Percussion'
+}, {
+  imgSrc: './images/raad-indignities.jpg',
+  href: 'http://raadp.bandcamp.com/releases',
   title: 'Indignities',
-  artist: 'RAAD'
+  type: 'EP',
+  artist: 'RAAD',
+  description: 'Drums, Percussion'
 }, {
   imgSrc: './images/theyachtclub-self.jpg',
   href: '#',
   title: 'The Yacht Club',
+  type: 'EP',
   artist: 'The Yacht Club'
 }, {
   imgSrc: './images/theyachtclub-a.jpg',
   href: '#',
   title: 'A',
+  type: 'EP',
   artist: 'The Yacht Club'
 }, {
   imgSrc: './images/daphnetae.jpg',
   href: '#',
-  title: 'The Ghost of Daphne (Single)',
+  title: 'The Ghost of Daphne',
+  type: 'Single',
   artist: 'To Arms Etc'
 }]

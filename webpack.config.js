@@ -9,6 +9,9 @@ module.exports = {
     './app/main.js'
   ],
   resolve: {
+    alias: {
+      react: resolve(__dirname, './node_modules/react')
+    },
     root: resolve(__dirname, './app'),
     fallback: resolve(__dirname, './node_modules')
   },
