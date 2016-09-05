@@ -1,10 +1,13 @@
 const express = require('express')
+const compression = require('compression')
 const webpackServer = require('./webpack')
 const resolve = require('path').resolve
 const app = express()
 const PORT = 2000
 
-app.use(express.static('public'))
+app.use(compression())
+
+app.use(express.static('public', { maxAge: 24 * 60 * 60 * 1000 }))
 
 webpackServer(app)
 
@@ -21,5 +24,5 @@ app.get('*', (req, res) => {
 })
 
 app.listen(PORT, () => {
-  console.log(`Server lisening on port ${PORT}`)
+  console.log(`Server listening on port ${PORT}`)
 })

@@ -9,6 +9,7 @@
   "dependencies": {
     "babel-preset-stage-0": "^6.5.0",
     "classnames": "^2.2.5",
+    "compression": "^1.6.2",
     "express": "^4.14.0",
     "lodash": "^4.14.0",
     "react": "^15.3.0",
