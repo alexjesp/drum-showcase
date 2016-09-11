@@ -16,10 +16,10 @@ app.get('/:pageType', (req, res) => {
 })
 
 app.get('*', (req, res) => {
-  res.status(404)
-
-  if (res.format('html')) {
+  if (res.format && res.format('html')) {
     res.redirect(301, '/')
+  } else {
+    res.status(404)
   }
 })
 

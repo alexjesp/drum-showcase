@@ -25,6 +25,12 @@ export default [{
   type: 'EP',
   artist: 'The Yacht Club'
 }, {
+  imgSrc: './images/outliers.jpg',
+  href: '#',
+  title: 'Home',
+  type: 'Single',
+  artist: 'Outliers'
+}, {
   imgSrc: './images/daphnetae.jpg',
   href: '#',
   title: 'The Ghost of Daphne',

@@ -29,6 +29,11 @@
 
 .Release-imageLink {
   margin-right: 2em;
+  transition: .2s opacity linear;
+}
+
+.Release-imageLink:hover {
+  opacity: .8;
 }
 
 .Release-image {
