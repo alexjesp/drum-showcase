@@ -32,7 +32,7 @@ module.exports = {
   },
   module: {
     loaders: [
-      { test: /\.js$/, loader: 'babel' },
+      { test: /\.js$/, exclude: /node_modules/, loader: 'babel' },
       { test: /\.css$/, loader: 'style!css' },
       { test: /\.(eot|svg|woff|ttf)(#\w+)?$/, loader: 'url-loader' }
     ]

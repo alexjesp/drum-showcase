@@ -1,7 +1,7 @@
 BIN=./node_modules/.bin
 
 serve:
-	@node server
+	@nodemon server
 
 lint:
 	$(BIN)/standard
