@@ -7,14 +7,16 @@ module.exports = function webpackServer (app) {
   var compiler = webpack(config)
 
   var middleware = webpackDevMiddleware(compiler, {
-    outputPath: config.output.path,
+    outputPath: config.output.publicPath,
     stats: { colors: true },
     noInfo: false,
     quiet: false
   })
 
   app.use(middleware)
-  app.use(webpackHotMiddleware(compiler))
+  // app.use(webpackHotMiddleware(compiler, {
+  //   path: '__webpack_hmr'
+  // }))
 
   return {
     invalidate () {

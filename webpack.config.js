@@ -5,7 +5,6 @@ var env = process.env.NODE_ENV || 'development'
 module.exports = {
   context: __dirname,
   entry: [
-    'react-hot-loader/patch',
     './app/main.js'
   ],
   resolve: {
