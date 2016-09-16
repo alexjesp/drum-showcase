@@ -24,7 +24,7 @@
 
 .Release-type {
   font-size: 1em;
-  color: rgba(0, 0, 0, .8);
+  color: rgba(0, 0, 0, .7);
 }
 
 .Release-imageLink {
@@ -39,4 +39,8 @@
 .Release-image {
   max-width: 200px;
   min-width: 100px;
+}
+
+.Release-description {
+  font-size: .8em;
 }

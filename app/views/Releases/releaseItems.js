@@ -17,23 +17,27 @@ export default [{
   href: '#',
   title: 'The Yacht Club',
   type: 'EP',
-  artist: 'The Yacht Club'
+  artist: 'The Yacht Club',
+  description: 'Drums, Percussion, Keyboards'
 }, {
   imgSrc: './images/theyachtclub-a.jpg',
   href: '#',
   title: 'A',
   type: 'EP',
-  artist: 'The Yacht Club'
+  artist: 'The Yacht Club',
+  description: 'Drums, Percussion'
 }, {
   imgSrc: './images/outliers.jpg',
   href: '#',
   title: 'Home',
   type: 'Single',
-  artist: 'Outliers'
+  artist: 'Outliers',
+  description: 'Drums'
 }, {
   imgSrc: './images/daphnetae.jpg',
   href: '#',
   title: 'The Ghost of Daphne',
   type: 'Single',
-  artist: 'To Arms Etc'
+  artist: 'To Arms Etc',
+  description: 'Drums'
 }]

@@ -1,3 +1,4 @@
+import classnames from 'classnames'
 import React, { PropTypes } from 'react'
 import './Page.css'
 
@@ -13,14 +14,16 @@ const Page = (props) => {
   if (!PageComponent) {
     return null
   }
+  const className = classnames('Page', props.className)
   return (
-    <div className='Page'>
+    <div className={className}>
       <PageComponent />
     </div>
   )
 }
 
 Page.propTypes = {
+  className: PropTypes.string,
   pageType: PropTypes.string
 }
 

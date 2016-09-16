@@ -1,0 +1,20 @@
+.SocialItem {
+  margin-right: 10px;
+  flex: none;
+  height: 25px;
+}
+
+.SocialItem-link {
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 25px;
+}
+
+.SocialItem-link:hover {
+  opacity: .8;
+  transition: opacity .3s linear;
+}

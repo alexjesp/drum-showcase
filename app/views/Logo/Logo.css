@@ -2,16 +2,11 @@
   display: flex;
   text-transform: uppercase;
   font-family: BebasNeueRegular;
-  font-size: 150px;
+  font-size: 110px;
   height: 1.15em;
   -webkit-user-select: none;
   margin: 0;
   font-weight: normal;
-}
-
-.Logo--small {
-  font-size: 110px;
-  margin-left: -490px;
 }
 
 .Logo-link {
@@ -32,7 +27,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: .65em;
-  line-height: 1.1;
+  font-size: .66em;
+  line-height: 1.12;
   margin: -.02em;
 }
