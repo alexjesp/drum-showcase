@@ -3,16 +3,12 @@ import './SocialItem.css'
 
 const SocialItem = (props, i) => {
   const { data } = props
-  const style = {
-    ...data.style,
-    backgroundImage: `url(${data.imgPath})`
-  }
   return (
     <li key={i} className='SocialItem'>
       <a
         className='SocialItem-link'
         href={data.href}
-        style={style}
+        style={data.style}
         target='_blank'>
         {data.name}
       </a>

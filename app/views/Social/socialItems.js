@@ -1,29 +1,33 @@
 export default [{
   name: 'twitter',
-  imgPath: '/images/twitter-logo.png',
   href: 'https://twitter.com/aespdrum',
   style: {
-    width: '25px'
+    width: '34px',
+    backgroundImage: 'url(images/social-sprite.png)',
+    backgroundPosition: '0 0'
   }
 }, {
   name: 'instagram',
-  imgPath: '/images/instagram-logo.png',
   href: 'https://instagram.com/aespdrum',
   style: {
-    width: '25px'
+    width: '34px',
+    backgroundImage: 'url(images/social-sprite.png)',
+    backgroundPosition: '-36px 0'
   }
 }, {
   name: 'github',
-  imgPath: '/images/github-logo.png',
   href: 'https://github.com/alexjesp',
   style: {
-    width: '25px'
+    width: '34px',
+    backgroundImage: 'url(images/social-sprite.png)',
+    backgroundPosition: '-72px 0'
   }
 }, {
   name: 'youtube',
-  imgPath: '/images/youtube-logo.png',
   href: 'https://youtube.com/aespdrum',
   style: {
-    width: '57px'
+    width: '78px',
+    backgroundImage: 'url(images/social-sprite.png)',
+    backgroundPosition: '-108px 0'
   }
 }]
