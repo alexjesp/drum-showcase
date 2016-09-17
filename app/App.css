@@ -20,19 +20,19 @@
   flex-direction: column;
   flex: none;
   top: 30px;
-  margin-left: -435px;
+  margin-left: -405px;
 }
 
 .App-body {
   display: flex;
   padding-bottom: 4em;
   margin-top: 50px;
-  margin-left: 3em;
+  padding-left: 3em;
 }
 
 .App-social {
   top: 50px;
-  margin-left: 435px;
+  margin-left: 396px;
 }
 
 .App-footer {

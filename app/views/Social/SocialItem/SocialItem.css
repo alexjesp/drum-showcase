@@ -1,15 +1,14 @@
 .SocialItem {
   margin-right: 7px;
   flex: none;
-  height: 34px;
 }
 
 .SocialItem-link {
   display: inline-block;
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  height: 34px;
+  fill: #000;
+  width: 24px;
+}
+
+.SocialItem.SocialItem--youtube .SocialItem-link {
+  width: 57px;
 }
