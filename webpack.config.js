@@ -33,7 +33,8 @@ module.exports = {
     loaders: [
       { test: /\.js$/, exclude: /node_modules/, loader: 'babel' },
       { test: /\.css$/, loader: 'style!css' },
-      { test: /\.(eot|svg|woff|ttf)(#\w+)?$/, loader: 'url-loader' }
+      { test: /\.(eot|woff|ttf)(#\w+)?$/, loader: 'url' },
+      { test: /\.svg$/, loader: 'svg-inline' }
     ]
   }
 }

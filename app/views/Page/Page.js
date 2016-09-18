@@ -9,22 +9,28 @@ const pageComponents = {
   contact: require('../Contact').default
 }
 
-const Page = (props) => {
-  const PageComponent = pageComponents[props.pageType]
-  if (!PageComponent) {
-    return null
-  }
-  const className = classnames('Page', props.className)
-  return (
-    <div className={className}>
-      <PageComponent />
-    </div>
-  )
-}
+class Page extends React.Component {
+  static propTypes = {
+    pageType: PropTypes.string,
+    className: PropTypes.string
+  };
 
-Page.propTypes = {
-  className: PropTypes.string,
-  pageType: PropTypes.string
+  componentDidUpdate () {
+    window.scrollTo(0, 0)
+  }
+
+  render () {
+    const PageComponent = pageComponents[this.props.pageType]
+    if (!PageComponent) {
+      return null
+    }
+    const className = classnames('Page', this.props.className)
+    return (
+      <div className={className}>
+        <PageComponent />
+      </div>
+    )
+  }
 }
 
 export default Page

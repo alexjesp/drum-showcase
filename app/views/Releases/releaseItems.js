@@ -35,7 +35,7 @@ export default [{
   description: 'Drums'
 }, {
   imgSrc: './images/daphnetae.jpg',
-  href: '#',
+  href: 'https://toarmsetcofficial.bandcamp.com/album/the-ghost-of-daphne-workshy',
   title: 'The Ghost of Daphne',
   type: 'Single',
   artist: 'To Arms Etc',
