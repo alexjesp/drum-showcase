@@ -5,3 +5,6 @@ serve:
 
 lint:
 	$(BIN)/standard
+
+deploy:
+	pm2 deploy production
