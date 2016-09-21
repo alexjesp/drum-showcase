@@ -1,11 +1,15 @@
-export default [{
+/*
+{
   imgSrc: './images/theyachtclub-fall.jpg',
   href: '#',
   title: 'Fall',
   type: 'EP',
   artist: 'The Yacht Club',
   description: 'Drums, Piano, Rhodes, Organ, Percussion'
-}, {
+}
+*/
+
+export default [{
   imgSrc: './images/raad-indignities.jpg',
   href: 'http://raadp.bandcamp.com/releases',
   title: 'Indignities',
@@ -14,21 +18,21 @@ export default [{
   description: 'Drums, Percussion'
 }, {
   imgSrc: './images/theyachtclub-self.jpg',
-  href: '#',
+  href: 'https://theyachtclub.bandcamp.com/album/the-yacht-club',
   title: 'The Yacht Club',
   type: 'EP',
   artist: 'The Yacht Club',
   description: 'Drums, Percussion, Keyboards'
 }, {
   imgSrc: './images/theyachtclub-a.jpg',
-  href: '#',
+  href: 'https://theyachtclub.bandcamp.com/album/a',
   title: 'A',
   type: 'EP',
   artist: 'The Yacht Club',
   description: 'Drums, Percussion'
 }, {
   imgSrc: './images/outliers.jpg',
-  href: '#',
+  href: 'https://soundcloud.com/thomashillrecording/rock-outliers-home',
   title: 'Home',
   type: 'Single',
   artist: 'Outliers',
