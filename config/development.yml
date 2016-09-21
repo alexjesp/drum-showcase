@@ -1,0 +1,4 @@
+instagram:
+  userId: 385047542
+  clientId: aec7770f43a640c6914e4ab78e58d516
+  redirectUri: http://localhost:2000/instagram
