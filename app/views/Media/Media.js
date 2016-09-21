@@ -1,12 +1,7 @@
 import React from 'react'
-import axios from 'axios'
 import './Media.css'
 
 class Media extends React.Component {
-  componentWillMount () {
-    // axios.get('/instagram-data')
-  }
-
   render () {
     return (
       <div className='Media'>
