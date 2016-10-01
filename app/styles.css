@@ -20,11 +20,8 @@ h1, h2, h3 {
   margin: 0;
 }
 
-a {
+a, a:hover, a:active, a:visited {
   text-decoration: none;
-}
-
-a:visited {
   color: black;
 }
 
