@@ -33,7 +33,7 @@ const AppFooter = () => {
   const year = (new Date()).getFullYear()
   return (
     <div className='App-footer'>
-      Site and design by Alexander Esp &copy; {year}
+      &copy; Alexander Esp {year}
     </div>
   )
 }
