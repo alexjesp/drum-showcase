@@ -29,7 +29,7 @@ const A = (props) => {
   const { data } = props
   if (data.external) {
     return (
-      <a className='AppNav-itemLink' href={data.href}>{data.title}</a>
+      <a className='AppNav-itemLink' href={data.href} target='_blank'>{data.title}</a>
     )
   }
   return (
