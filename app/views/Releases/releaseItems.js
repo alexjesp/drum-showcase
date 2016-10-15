@@ -1,15 +1,11 @@
-/*
-{
+export default [{
   imgSrc: './images/theyachtclub-fall.jpg',
-  href: '#',
+  href: null,
   title: 'Fall',
   type: 'EP',
   artist: 'The Yacht Club',
   description: 'Drums, Piano, Rhodes, Organ, Percussion'
-}
-*/
-
-export default [{
+}, {
   imgSrc: './images/raad-indignities.jpg',
   href: 'http://raadp.bandcamp.com/releases',
   title: 'Indignities',
