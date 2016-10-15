@@ -8,6 +8,7 @@ export default [{
   href: '/media',
   title: 'Media'
 }, {
-  href: '/contact',
-  title: 'Contact'
+  href: 'mailto:contact@alexesp.co.uk',
+  title: 'Contact',
+  external: true
 }]

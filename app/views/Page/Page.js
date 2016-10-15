@@ -1,13 +1,7 @@
 import classnames from 'classnames'
 import React, { PropTypes } from 'react'
+import pages from './pages'
 import './Page.css'
-
-const pageComponents = {
-  about: require('../About').default,
-  releases: require('../Releases').default,
-  media: require('../Media').default,
-  contact: require('../Contact').default
-}
 
 class Page extends React.Component {
   static propTypes = {
@@ -20,7 +14,7 @@ class Page extends React.Component {
   }
 
   render () {
-    const PageComponent = pageComponents[this.props.pageType]
+    const PageComponent = pages[this.props.pageType]
     if (!PageComponent) {
       return null
     }

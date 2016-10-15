@@ -18,11 +18,22 @@ AppNav.propTypes = {
 }
 
 const AppNavItem = (props) => {
-  const { data } = props
   return (
     <li className='AppNav-item'>
-      <Link className='AppNav-itemLink' to={data.href}>{data.title}</Link>
+      <A {...props} />
     </li>
+  )
+}
+
+const A = (props) => {
+  const { data } = props
+  if (data.external) {
+    return (
+      <a className='AppNav-itemLink' href={data.href}>{data.title}</a>
+    )
+  }
+  return (
+    <Link className='AppNav-itemLink' to={data.href}>{data.title}</Link>
   )
 }
 
