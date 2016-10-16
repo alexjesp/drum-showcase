@@ -14,6 +14,7 @@ class Media extends React.Component {
         <div className='Media-videoWrapper'>
           <iframe width='560' height='315' src='https://www.youtube.com/embed/sqIIejUIQfc?VQ=HD720' frameBorder='0' allowFullScreen />
         </div>
+        <img className='Media-image' src='/images/gmisadventure-still.jpg' />
       </div>
     )
   }
