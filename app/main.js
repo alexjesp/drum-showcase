@@ -1,6 +1,7 @@
 import { render } from 'react-dom'
 import createRoot from './createRoot'
-import './styles.css'
+import './styles/global.css'
+import './styles/media.css'
 
 const root = document.createElement('div')
 root.id = 'root'

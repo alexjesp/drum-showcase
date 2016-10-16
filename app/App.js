@@ -16,8 +16,8 @@ const App = ({ params }) => {
           <Logo />
           <AppNav items={navItems} />
         </div>
-        <Page className='App-body' pageType={pageType} />
         <Social className='App-social' items={socialItems} />
+        <Page className='App-body' pageType={pageType} />
       </div>
       <AppFooter />
       <div className='App-topBar' />
