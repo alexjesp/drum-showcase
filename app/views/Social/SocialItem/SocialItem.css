@@ -1,0 +1,14 @@
+.SocialItem {
+  margin-right: 7px;
+  flex: none;
+}
+
+.SocialItem-link {
+  display: inline-block;
+  fill: #000;
+  width: 24px;
+}
+
+.SocialItem.SocialItem--youtube .SocialItem-link {
+  width: 57px;
+}

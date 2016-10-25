@@ -1,0 +1,33 @@
+.Logo {
+  display: flex;
+  text-transform: uppercase;
+  font-family: BebasNeueRegular;
+  font-size: 110px;
+  height: 1.15em;
+  -webkit-user-select: none;
+  margin: 0;
+  font-weight: normal;
+}
+
+.Logo-link {
+  display: flex;
+}
+
+.Logo-big {
+  font-size: 1em;
+}
+
+.Logo-smallWrapper {
+  margin-top: .19em;
+  margin-left: .05em;
+  border-top: .17em solid black;
+}
+
+.Logo-small {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .66em;
+  line-height: 1.12;
+  margin: -.02em;
+}

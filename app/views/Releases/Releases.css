@@ -1,0 +1,47 @@
+.Releases {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+}
+
+.Release {
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.Release-title {
+  font-size: 1.7em;
+  line-height: 1.5;
+}
+
+.Release-artist {
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+.Release-type {
+  font-size: 1em;
+  color: rgba(0, 0, 0, .7);
+}
+
+.Release-imageLink {
+  margin-right: 2em;
+  transition: .2s opacity linear;
+}
+
+.Release-imageLink:hover {
+  opacity: .8;
+}
+
+.Release-image {
+  max-width: 200px;
+  min-width: 100px;
+}
+
+.Release-description {
+  color: rgba(0, 0, 0, .7);
+  font-size: 1em;
+}

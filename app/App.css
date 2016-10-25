@@ -1,0 +1,55 @@
+.App {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  position: relative;
+}
+
+.App-content {
+  display: flex;
+  height: 100%;
+  padding-bottom: 2em;
+  width: 100%;
+  justify-content: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  flex: none;
+  top: 30px;
+  margin-left: -405px;
+}
+
+.App-body {
+  padding-bottom: 4em;
+  margin-top: 50px;
+  padding-left: 3em;
+}
+
+.App-social {
+  top: 50px;
+  margin-left: 396px;
+}
+
+.App-footer {
+  margin-top: -2em;
+  font-size: 13px;
+  padding-bottom: 2em;
+  text-align: center;
+  width: 100%;
+}
+
+.App-header,
+.App-social {
+  position: fixed;
+}
+
+.App-topBar {
+  border-top: 10px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}

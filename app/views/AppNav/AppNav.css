@@ -1,0 +1,19 @@
+.AppNav {
+  display: flex;
+  flex-direction: column;
+  font-family: BebasNeueRegular;
+  font-size: 2em;
+  margin-top: 1em;
+}
+
+.AppNav-item {
+  display: flex;
+  flex: none;
+  justify-content: flex-end;
+}
+
+.AppNav-itemLink,
+.AppNav-itemLink:visited {
+  text-decoration: none;
+  color: #000;
+}
