@@ -7,7 +7,8 @@
 
 .Release {
   display: flex;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
+  width: 100%;
 }
 
 .Release-title {
@@ -30,6 +31,7 @@
 .Release-imageLink {
   margin-right: 2em;
   transition: .2s opacity linear;
+  width: 35%;
 }
 
 .Release-imageLink:hover {
@@ -39,6 +41,8 @@
 .Release-image {
   max-width: 200px;
   min-width: 100px;
+  flex: none;
+  width: 100%;
 }
 
 .Release-description {
