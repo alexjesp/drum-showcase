@@ -1,7 +1,6 @@
 import classnames from 'classnames'
 import React, { PropTypes } from 'react'
 import pages from './pages'
-import './Page.css'
 
 class Page extends React.Component {
   static propTypes = {

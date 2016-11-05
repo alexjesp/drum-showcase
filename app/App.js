@@ -9,33 +9,30 @@ import './App.css'
 
 const App = ({ params }) => {
   const pageType = params.pageType || 'about'
+  const year = (new Date()).getFullYear()
+
   return (
     <div className='App'>
+      <div className='App-topBar' />
       <div className='App-content'>
         <div className='App-header'>
-          <Logo />
-          <AppNav items={navItems} />
+          <div className='App-headerFixed'>
+            <Logo />
+            <AppNav items={navItems} />
+          </div>
         </div>
-        <Social className='App-social' items={socialItems} />
         <Page className='App-body' pageType={pageType} />
+        <div className='App-social'>
+          <Social items={socialItems} />
+        </div>
       </div>
-      <AppFooter />
-      <div className='App-topBar' />
+      <div className='App-footer'>&copy; Alexander Esp {year}</div>
     </div>
   )
 }
 
 App.propTypes = {
   params: PropTypes.object
-}
-
-const AppFooter = () => {
-  const year = (new Date()).getFullYear()
-  return (
-    <div className='App-footer'>
-      &copy; Alexander Esp {year}
-    </div>
-  )
 }
 
 export default App
