@@ -1,9 +1,13 @@
 .Logo {
+  align-items: center;
   display: flex;
   text-transform: uppercase;
   font-family: BebasNeueRegular;
   font-size: 110px;
-  height: 1.15em;
+  height: .75em;
+  width: 2.32em;
+  overflow: hidden;
+  justify-content: center;
   -webkit-user-select: none;
   margin: 0;
   font-weight: normal;
@@ -11,6 +15,7 @@
 
 .Logo-link {
   display: flex;
+  margin-top: .1em;
 }
 
 .Logo-big {

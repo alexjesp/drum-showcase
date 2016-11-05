@@ -18,11 +18,12 @@
   flex: none;
   width: 255px;
   margin-right: 3em;
+  margin-top: 50px;
 }
 
 .App-headerFixed {
   position: fixed;
-  top: 30px;
+  top: 50px;
 }
 
 .App-body {
@@ -34,9 +35,10 @@
 }
 
 .App-social {
-  margin-top: 50px;
+  display: flex;
   height: 30px;
   flex: none;
+  justify-content: center;
   width: 160px;
 }
 
