@@ -32,6 +32,13 @@
   margin-right: 2em;
   transition: .2s opacity linear;
   width: 35%;
+  flex: none;
+  max-width: 200px;
+  min-width: 100px;
+}
+
+.Release-info {
+  flex: 1;
 }
 
 .Release-imageLink:hover {
@@ -39,10 +46,8 @@
 }
 
 .Release-image {
-  max-width: 200px;
-  min-width: 100px;
-  flex: none;
   width: 100%;
+  height: auto;
 }
 
 .Release-description {
