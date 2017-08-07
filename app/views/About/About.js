@@ -4,7 +4,7 @@ import './About.css'
 const About = () => {
   return (
     <div className='About'>
-      <img className='About-img' src='./images/resident-dogevid.jpg' />
+      <img className='About-img' src='./images/IMG_6194.JPG' />
       {
         /* <p>{'Nam fermentum ullamcorper vestibulum. Sed laoreet volutpat ullamcorper. Donec ac eros et odio pellentesque mattis eu ac ipsum. Donec lorem tortor, sodales sit amet dictum ut, consequat vel justo. Suspendisse sollicitudin ipsum eu molestie fermentum. Phasellus quis quam purus. Vivamus aliquam lacinia velit eget rutrum.'}</p>
         <p>{'Praesent risus sapien, ultrices sed ultrices a, vehicula a risus. Duis ut sollicitudin lacus. Phasellus vel urna ullamcorper, molestie ante at, fermentum ex. Phasellus vel ornare felis.'}</p>
