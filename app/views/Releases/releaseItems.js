@@ -1,6 +1,6 @@
 export default [{
   imgSrc: './images/theyachtclub-fall.jpg',
-  href: null,
+  href: 'https://theyachtclub.bandcamp.com/album/fall',
   title: 'Fall',
   type: 'EP',
   artist: 'The Yacht Club',
