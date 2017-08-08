@@ -10,7 +10,8 @@ html, body {
 }
 
 body {
-  background: #fff;
+  background-color: #fff;
+  background-image: url(../../public/images/bg.png);
   color: #000;
   font-size: 16px;
   font-family: 'Cabin', sans-serif;
