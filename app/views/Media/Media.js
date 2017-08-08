@@ -6,7 +6,9 @@ class Media extends React.Component {
     return (
       <div className='Media'>
         <img className='Media-image' src='/images/theyachtclub-fall-promo.jpg' />
-        <div className='Media-credit'>Photo taken by <a className='Media-creditLink' href='https://www.facebook.com/CatherineBridgmanPhotographer' target='_blank'>Catherine Bridgman</a></div>
+        <div className='Media-credit'>Photo by <a className='Media-creditLink' href='https://www.facebook.com/CatherineBridgmanPhotographer' target='_blank'>Catherine Bridgman</a></div>
+        <img className='Media-image' src='/images/IMG_6194.JPG' />
+        <div className='Media-credit'>Photo by <a className='Media-creditLink' href='http://simontreasure.com' target='_blank'>Simon Treasure</a></div>
         <img className='Media-image' src='/images/gmisadventure-still.jpg' />
         <img className='Media-image' src='/images/motb-video.jpg' />
         <img className='Media-image' src='/images/c2c.jpg' />
