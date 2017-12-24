@@ -4,14 +4,10 @@ import './About.css'
 const About = () => {
   return (
     <div className='About'>
-      <img className='About-img' src='./images/20707168_10155534017635396_1439614710_oEDIT.jpg' />
-      <div className='About-imgCredit'>Photo by <a href='http://simontreasure.com' target='_blank'>Simon Treasure</a></div>
-      {
-        /* <p>{'Nam fermentum ullamcorper vestibulum. Sed laoreet volutpat ullamcorper. Donec ac eros et odio pellentesque mattis eu ac ipsum. Donec lorem tortor, sodales sit amet dictum ut, consequat vel justo. Suspendisse sollicitudin ipsum eu molestie fermentum. Phasellus quis quam purus. Vivamus aliquam lacinia velit eget rutrum.'}</p>
-        <p>{'Praesent risus sapien, ultrices sed ultrices a, vehicula a risus. Duis ut sollicitudin lacus. Phasellus vel urna ullamcorper, molestie ante at, fermentum ex. Phasellus vel ornare felis.'}</p>
-        <p>{'Etiam maximus erat eros, at tincidunt nunc pellentesque a. Donec at est pretium, tempus lacus ac, egestas tellus. Fusce vestibulum urna ut euismod tempor. Vivamus consectetur leo quis porttitor gravida. Aliquam aliquet, tellus ac egestas ultrices, ligula nulla pellentesque odio, et laoreet enim lacus vitae magna. Aliquam nec consequat nunc. Aenean sagittis pharetra tellus. Vivamus nec nunc eros. Suspendisse urna nisl, posuere eu bibendum ut, lobortis sed erat. Morbi dignissim porta luctus. Phasellus vitae velit metus. Vestibulum placerat ullamcorper elit mattis aliquet.'}</p>
-        */
-      }
+      <div className='Media-videoWrapper'>
+        <iframe width='560' height='315' src='https://www.youtube.com/embed/jLj5Z8UWLT8?VQ=HD1080&showinfo=0&autoplay=1&modestbranding=1' frameBorder='0' allowFullScreen />
+      </div>
+      <div className='About-imgCredit'>Footage by <a href='http://simontreasure.com' target='_blank'>Simon Treasure</a>. Original audio by <a href='http://thomashillrecording.com' target='_blank'>Tom Hill</a></div>
     </div>
   )
 }
