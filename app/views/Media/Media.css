@@ -30,7 +30,8 @@
   color: #000;
 }
 
-.Media-image + .Media-credit {
+.Media-image + .Media-credit,
+.Media-videoWrapper + .Media-credit {
   margin-top: -2em;
   margin-bottom: 2em;
 }
