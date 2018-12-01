@@ -5,6 +5,10 @@ class Media extends React.Component {
   render () {
     return (
       <div className='Media'>
+        <div className='Media-videoWrapper'>
+          <iframe width='560' height='315' src='https://www.youtube.com/embed/jLj5Z8UWLT8?VQ=HD1080&showinfo=0&autoplay=1&modestbranding=1' frameBorder='0' allowFullScreen />
+        </div>
+        <div className='Media-credit'>Video by <a className='Media-creditLink' href='http://simontreasure.com' target='_blank'>Simon Treasure</a>. Original audio by <a href='http://thomashillrecording.com' target='_blank'>Tom Hill</a></div>
         <img className='Media-image' src='/images/20707168_10155534017635396_1439614710_oEDIT.jpg' />
         <div className='Media-credit'>Photo by <a className='Media-creditLink' href='http://simontreasure.com' target='_blank'>Simon Treasure</a></div>
         <img className='Media-image' src='/images/theyachtclub-fall-promo.jpg' />
