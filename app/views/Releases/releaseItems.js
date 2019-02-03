@@ -1,10 +1,10 @@
 export default [{
   imgSrc: './images/theyachtclub-lp1-front.jpg',
-  href: 'http://bethshalomrecords.limitedrun.com/products/629954-the-yacht-club-the-last-words-that-you-said-to-me-have-kept-me-here-and-safe',
+  href: 'https://open.spotify.com/album/01IS5APLJsk4Q7ungYwp9O?si=yxNGJzlpTHaydT8_NIi7mA',
   title: 'The Last Words That You Said To Me Have Kept Me Here And Safe',
   type: 'LP',
   artist: 'The Yacht Club',
-  description: '(Coming 25-01-2019)\nDrums, Piano, Rhodes, Organ, Percussion and Backing Vocals'
+  description: 'Drums, Piano, Rhodes, Organ, Percussion and Backing Vocals'
 }, {
   imgSrc: './images/theyachtclub-fall.jpg',
   href: 'https://theyachtclub.bandcamp.com/album/fall',
