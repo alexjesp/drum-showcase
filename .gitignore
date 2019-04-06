@@ -1,5 +1,5 @@
 .DS_Store
 npm-debug.log
-dist
+public/bundle*
 node_modules
 config/local-*.yml

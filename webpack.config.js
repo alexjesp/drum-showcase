@@ -1,40 +1,35 @@
-var webpack = require('webpack')
-var resolve = require('path').resolve
-var env = process.env.NODE_ENV || 'development'
+const webpack = require('webpack')
+const { resolve } = require('path')
+const env = process.env.NODE_ENV || 'development'
 
 module.exports = {
   context: __dirname,
+  mode: env === 'development' ? 'development' : 'production',
   entry: [
     './app/main.js'
   ],
   resolve: {
     alias: {
       react: resolve(__dirname, './node_modules/react')
-    },
-    root: resolve(__dirname, './app'),
-    fallback: resolve(__dirname, './node_modules')
-  },
-  resolveLoader: {
-    fallback: resolve(__dirname, './node_modules')
+    }
   },
   plugins: [
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': '"' + env + '"'
-    }),
-    new webpack.NoErrorsPlugin()
+    })
   ],
-  devtool: 'cheap-module-source-map',
+  devtool: env === 'development' ? 'cheap-module-source-map' : false,
   output: {
     path: resolve(__dirname, 'public'),
     publicPath: '/public/',
     filename: 'bundle.js'
   },
   module: {
-    loaders: [
-      { test: /\.js$/, exclude: /node_modules/, loader: 'babel' },
-      { test: /\.css$/, loader: 'style!css' },
-      { test: /\.(eot|woff|ttf|png)(#\w+)?$/, loader: 'url' },
-      { test: /\.svg$/, loader: 'svg-inline' }
+    rules: [
+      { test: /\.js$/, exclude: /node_modules/, use: ['babel-loader'] },
+      { test: /\.css$/, use: ['style-loader', 'css-loader'] },
+      { test: /\.(eot|woff|ttf|png)(#\w+)?$/, use: ['url-loader'] },
+      { test: /\.svg$/, use: ['svg-inline-loader'] }
     ]
   }
 }
