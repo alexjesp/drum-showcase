@@ -1,6 +1,6 @@
-var webpack = require('webpack')
-var resolve = require('path').resolve
-var env = process.env.NODE_ENV || 'development'
+const webpack = require('webpack')
+const { resolve } = require('path')
+const env = process.env.NODE_ENV || 'development'
 
 module.exports = {
   context: __dirname,
@@ -23,10 +23,6 @@ module.exports = {
     path: resolve(__dirname, 'public'),
     publicPath: '/public/',
     filename: 'bundle.js'
-  },
-  optimization: {
-    noEmitOnErrors: env !== 'development',
-    minimize: env !== 'development'
   },
   module: {
     rules: [
