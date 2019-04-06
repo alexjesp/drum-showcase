@@ -15,5 +15,4 @@ lint:
 	$(BIN)/standard
 
 deploy:
-	NODE_ENV=production $(BIN)/webpack
 	pm2 deploy production
