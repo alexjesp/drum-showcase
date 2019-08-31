@@ -4,10 +4,8 @@ import './About.css'
 const About = () => {
   return (
     <div className='About'>
-      <div className='Media-videoWrapper'>
-        <iframe width='560' height='315' src='https://www.youtube.com/embed/MBnEs3CY994?VQ=HD1080&showinfo=0&autoplay=1&modestbranding=1' frameBorder='0' allowFullScreen />
-      </div>
-      <div className='About-imgCredit'>Video by Kamaji Studios.</div>
+      <img className='About-img' src='/images/IMG_2921.JPG' alt='Alexander Esp playing piano in a denim jacket at Bookhouse Studios' />
+      <div className='About-imgCredit'>Photo by Treasure Digital.</div>
     </div>
   )
 }

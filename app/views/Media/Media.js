@@ -11,6 +11,8 @@ class Media extends React.Component {
         <div className='Media-credit'>Video by <a className='Media-creditLink' href='http://simontreasure.com' target='_blank'>Simon Treasure</a>. Original audio by <a href='http://thomashillrecording.com' target='_blank'>Tom Hill</a></div>
         <img className='Media-image' src='/images/tyc-lp1-launch.jpg' />
         <div className='Media-credit'>Photo by <a className='Media-creditLink' href='http://simontreasure.com' target='_blank'>Simon Treasure</a></div>
+        <img className='Media-image' src='/images/tyc-lp1-launch.jpg' />
+        <div className='Media-credit'>Photo by <a className='Media-creditLink' href='#' target='_blank'>Christopher Boakes</a></div>
         <img className='Media-image' src='/images/20707168_10155534017635396_1439614710_oEDIT.jpg' />
         <div className='Media-credit'>Photo by <a className='Media-creditLink' href='http://simontreasure.com' target='_blank'>Simon Treasure</a></div>
         <img className='Media-image' src='/images/theyachtclub-fall-promo.jpg' />
