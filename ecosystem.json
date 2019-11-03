@@ -19,7 +19,7 @@
       "ref" : "origin/master",
       "repo": "git@github.com:alexjesp/drum-showcase.git",
       "path": "/var/www/production",
-      "post-deploy" : "npm install && NODE_ENV=production ./node_modules/.bin/webpack && pm2 startOrRestart ecosystem.json --env production"
+      "post-deploy" : "npm install && npm run build && pm2 startOrRestart ecosystem.json --env production"
     }
   }
 }

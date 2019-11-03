@@ -1,9 +1,11 @@
 {
-  "name": "drum-showcase-2",
+  "name": "drum-showcase",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://alexesp.co.uk",
   "dependencies": {
     "classnames": "^2.2.6",
+    "express": "^4.17.1",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
@@ -14,6 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "serve": "node server/index",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
