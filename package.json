@@ -18,7 +18,8 @@
     "build": "react-scripts build",
     "serve": "node server/index",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "pm2 deploy production"
   },
   "eslintConfig": {
     "extends": "react-app"
