@@ -1,4 +1,6 @@
-import React, { PropTypes } from 'react'
+import React from 'react'
+import PropTypes from 'prop-types'
+
 import items from './releaseItems'
 import './Releases.css'
 
@@ -17,8 +19,8 @@ const Release = (props) => {
   const { data } = props
   return (
     <li className='Release'>
-      <a className='Release-imageLink' href={data.href} target='_blank'>
-        <img className='Release-image' src={data.imgSrc} />
+      <a className='Release-imageLink' href={data.href} target='_blank' rel="noopener noreferrer">
+        <img className='Release-image' src={data.imgSrc} alt={`${data.title} - ${data.artist} - ${data.description}`} />
       </a>
       <div className='Release-info'>
         <h2 className='Release-title'>{data.title}</h2>

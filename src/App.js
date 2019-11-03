@@ -1,4 +1,7 @@
-import React, { PropTypes } from 'react'
+import React from 'react'
+import { useParams } from 'react-router'
+import PropTypes from 'prop-types'
+
 import Social from './views/Social'
 import Logo from './views/Logo'
 import AppNav from './views/AppNav'
@@ -8,7 +11,7 @@ import socialItems from './views/Social/socialItems'
 import './App.css'
 
 const App = ({ params }) => {
-  const pageType = params.pageType || 'about'
+  const { pageType = 'about' } = useParams()
   const year = (new Date()).getFullYear()
 
   return (

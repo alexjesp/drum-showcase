@@ -1,5 +1,7 @@
-import React, { PropTypes } from 'react'
-import { Link } from 'react-router'
+import React from 'react'
+import PropTypes from 'prop-types'
+
+import { Link } from 'react-router-dom'
 import './AppNav.css'
 
 const AppNav = (props) => {
@@ -29,7 +31,7 @@ const A = (props) => {
   const { data } = props
   if (data.external) {
     return (
-      <a className='AppNav-itemLink' href={data.href} target='_blank'>{data.title}</a>
+      <a className='AppNav-itemLink' href={data.href} target='_blank' rel="noopener noreferrer">{data.title}</a>
     )
   }
   return (

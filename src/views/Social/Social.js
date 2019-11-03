@@ -1,5 +1,7 @@
 import classnames from 'classnames'
-import React, { PropTypes } from 'react'
+import React from 'react'
+import PropTypes from 'prop-types'
+
 import SocialItem from './SocialItem'
 import './Social.css'
 
