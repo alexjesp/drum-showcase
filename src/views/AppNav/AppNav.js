@@ -1,10 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
 import { Link } from 'react-router-dom'
 import './AppNav.css'
 
-const AppNav = (props) => {
+export const AppNav = props => {
   const renderAppNavItem = (data, i) => {
     return (<AppNavItem key={i} data={data} />)
   }
@@ -22,12 +21,12 @@ AppNav.propTypes = {
 const AppNavItem = (props) => {
   return (
     <li className='AppNav-item'>
-      <A {...props} />
+      <Anchor {...props} />
     </li>
   )
 }
 
-const A = (props) => {
+const Anchor = (props) => {
   const { data } = props
   if (data.external) {
     return (
@@ -42,5 +41,3 @@ const A = (props) => {
 AppNavItem.propTypes = {
   data: PropTypes.object
 }
-
-export default AppNav

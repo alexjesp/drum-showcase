@@ -1,1 +1,1 @@
-export { default } from './SocialItem'
+export { SocialItem } from './SocialItem'

@@ -15,14 +15,14 @@ const icons = {
   youtube: YoutubeIcon
 }
 
-const SocialItem = (props, i) => {
-  const { data } = props
+export const SocialItem = (props) => {
+  const { data, key } = props
   const className = classnames('SocialItem', {
     [`SocialItem--${data.name}`]: true
   })
   const Icon = icons[data.name]
   return (
-    <li key={i} className={className}>
+    <li key={key} className={className}>
       <a
         className='SocialItem-link'
         href={data.href}
@@ -36,5 +36,3 @@ const SocialItem = (props, i) => {
 SocialItem.propTypes = {
   data: PropTypes.object
 }
-
-export default SocialItem

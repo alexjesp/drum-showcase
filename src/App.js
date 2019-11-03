@@ -2,15 +2,15 @@ import React from 'react'
 import { useParams } from 'react-router'
 import PropTypes from 'prop-types'
 
-import Social from './views/Social'
-import Logo from './views/Logo'
-import AppNav from './views/AppNav'
-import Page from './views/Page'
-import navItems from './views/AppNav/navItems'
-import socialItems from './views/Social/socialItems'
+import { Social } from './views/Social'
+import { Logo } from './views/Logo'
+import { AppNav } from './views/AppNav'
+import { Page } from './views/Page'
+import { navItems } from './views/AppNav/navItems'
+import { socialItems } from './views/Social/socialItems'
 import './App.css'
 
-const App = ({ params }) => {
+export const App = () => {
   const { pageType = 'about' } = useParams()
   const year = (new Date()).getFullYear()
 
@@ -37,5 +37,3 @@ const App = ({ params }) => {
 App.propTypes = {
   params: PropTypes.object
 }
-
-export default App

@@ -1,4 +1,4 @@
-export default [{
+export const socialItems = [{
   name: 'twitter',
   href: 'https://twitter.com/aespdrum'
 }, {

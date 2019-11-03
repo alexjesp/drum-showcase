@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
 import './Logo.css'
 
-const Logo = (props) => {
+export const Logo = props => {
   const { isHome } = props
   const className = classnames('Logo', {
     'Logo--small': isHome
@@ -25,5 +25,3 @@ const Logo = (props) => {
 Logo.propTypes = {
   isHome: PropTypes.bool
 }
-
-export default Logo

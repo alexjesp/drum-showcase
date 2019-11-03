@@ -1,16 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import items from './releaseItems'
+import { releases } from './releaseItems'
 import './Releases.css'
 
-const Releases = () => {
+export const Releases = () => {
   const renderRelease = (item, i) => {
     return (<Release key={i} data={item} />)
   }
   return (
     <ul className='Releases'>
-      {items.map(renderRelease)}
+      {releases.map(renderRelease)}
     </ul>
   )
 }
@@ -34,5 +34,3 @@ const Release = (props) => {
 Release.propTypes = {
   data: PropTypes.object
 }
-
-export default Releases
