@@ -1,3 +1,4 @@
+import lcpcEIFSrc from '../../images/lcpc-everything-is-fine-ep.jpg'
 import lp1ArtSrc from '../../images/theyachtclub-lp1-front.jpg'
 import fallArtSrc from '../../images/theyachtclub-fall.jpg'
 import raadEpArtSrc from '../../images/raad-indignities.jpg'
@@ -7,6 +8,13 @@ import outliersArtSrc from '../../images/outliers.jpg'
 import ghostOfDaphneArtSrc from '../../images/daphnetae.jpg'
 
 export const releases = [{
+  imgSrc: lcpcEIFSrc,
+  href: 'https://leecarvallosputtingchallenge.bandcamp.com',
+  title: 'Everything Is Fine',
+  type: 'EP',
+  artist: "Lee Carvallo's Putting Challenge",
+  description: 'Drums'
+}, {
   imgSrc: lp1ArtSrc,
   href: 'https://open.spotify.com/album/01IS5APLJsk4Q7ungYwp9O?si=yxNGJzlpTHaydT8_NIi7mA',
   title: 'The Last Words That You Said To Me Have Kept Me Here And Safe',
