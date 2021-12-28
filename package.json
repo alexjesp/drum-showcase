@@ -15,7 +15,7 @@
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
-    "deploy": "pm2 deploy production",
+    "deploy-prod": "pm2 deploy production",
     "prettier-format": "prettier --config .prettierrc 'src/**/*.{ts,tsx}' --write"
   },
   "devDependencies": {
