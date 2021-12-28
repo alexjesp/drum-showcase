@@ -16,7 +16,7 @@
       "ref": "origin/ae/nextjs",
       "repo": "git@github.com:alexjesp/drum-showcase.git",
       "path": "/var/www/production",
-      "post-deploy": "which yarn > output.txt && yarn install && yarn build && pm2 startOrRestart ecosystem.json --env production"
+      "post-deploy": "/home/alexjesp/.nvm/versions/node/v16.13.1/bin/yarn install && yarn build && pm2 startOrRestart ecosystem.json --env production"
     }
   }
 }
