@@ -1,14 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
-import Head from 'next/head'
 
-import { Social } from './Social'
-import { socialItems } from '../data/socialItems'
-import { Nav } from './Nav'
 import { navItems } from '../data/navItems'
+import { socialItems } from '../data/socialItems'
 
 import { Logo } from './Logo'
-import { Page } from './Page'
+import { Nav } from './Nav'
+import { Social } from './Social'
 
 const AppContainer = styled.div`
   align-items: center;
@@ -116,36 +114,23 @@ const TopBar = styled.div`
   z-index: 5;
 `
 
-const App: React.FunctionComponent = (props) => (
-  <>
-    <Head>
-      <meta charSet="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta
-        name="description"
-        content="Official site for professional musician, Alex Esp."
-      />
-      <title>Alex Esp | Musician</title>
-    </Head>
-    <AppContainer>
-      <TopBar />
-      <AppContent>
-        <AppHeader>
-          <AppHeaderFixed>
-            <Logo />
-            <Nav items={navItems} />
-          </AppHeaderFixed>
-        </AppHeader>
-        <AppBody>
-          <Page>{props.children}</Page>
-        </AppBody>
-        <SocialWrapper>
-          <Social items={socialItems} />
-        </SocialWrapper>
-      </AppContent>
-      <AppFooter>&copy; Alexander Esp {new Date().getFullYear()}</AppFooter>
-    </AppContainer>
-  </>
+const App: React.FunctionComponent = ({ children }) => (
+  <AppContainer>
+    <TopBar />
+    <AppContent>
+      <AppHeader>
+        <AppHeaderFixed>
+          <Logo />
+          <Nav items={navItems} />
+        </AppHeaderFixed>
+      </AppHeader>
+      <AppBody>{children}</AppBody>
+      <SocialWrapper>
+        <Social items={socialItems} />
+      </SocialWrapper>
+    </AppContent>
+    <AppFooter>&copy; Alexander Esp {new Date().getFullYear()}</AppFooter>
+  </AppContainer>
 )
 
 export default App
