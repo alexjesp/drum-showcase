@@ -16,7 +16,7 @@
     "production": {
       "user": "alexjesp",
       "host": "139.59.178.113",
-      "ref": "origin/ae/nextjs",
+      "ref": "origin/master",
       "repo": "git@github.com:alexjesp/drum-showcase.git",
       "path": "/var/www/production",
       "post-deploy": "npm install && npm run build && pm2 startOrRestart ecosystem.json --env production"
