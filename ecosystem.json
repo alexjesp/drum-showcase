@@ -1,25 +1,25 @@
 {
-  "apps": [{
-    "name": "drum-showcase",
-    "script": "server/index.js",
-    "env": {
-      "COMMON_VARIABLE": "true"
-    },
-    "env_staging": {
-      "NODE_ENV": "staging"
-    },
-    "env_production": {
-      "NODE_ENV": "production"
+  "apps": [
+    {
+      "name": "drum-showcase",
+      "script": "npm",
+      "args": [
+        "run",
+        "start"
+      ],
+      "env_production": {
+        "NODE_ENV": "production"
+      }
     }
-  }],
+  ],
   "deploy": {
     "production": {
       "user": "alexjesp",
-      "host": "178.62.49.172",
-      "ref" : "origin/master",
+      "host": "139.59.178.113",
+      "ref": "origin/master",
       "repo": "git@github.com:alexjesp/drum-showcase.git",
       "path": "/var/www/production",
-      "post-deploy" : "npm install && npm run build && pm2 startOrRestart ecosystem.json --env production"
+      "post-deploy": "npm install && npm run build && pm2 startOrRestart ecosystem.json --env production"
     }
   }
 }
