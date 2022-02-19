@@ -9,6 +9,14 @@ export type Release = {
 
 export const releases: Release[] = [
   {
+    imgSrc: '../../images/hope-single-cover.jpg',
+    href: 'https://open.spotify.com/album/4PLisKJNR5TN8A4nvwdQYX?si=GfYngFn8QhCYVImw-654Kw',
+    title: 'Hope',
+    type: 'Single',
+    artist: "Young Astronaut",
+    description: 'Drums'
+  },
+  {
     imgSrc: '../../images/lcpc-everything-is-fine-ep.jpg',
     href: 'https://leecarvallosputtingchallenge.bandcamp.com',
     title: 'Everything Is Fine',
