@@ -8,6 +8,13 @@ export type Release = {
 }
 
 export const releases: Release[] = [{
+  imgSrc: '../../images/stumbling.jpg',
+  href: 'https://theyachtclub.bandcamp.com/album/stumbling',
+  title: 'Stumbling',
+  type: 'Single',
+  artist: "The Yacht Club",
+  description: 'Drums'
+}, {
   imgSrc: '../../images/lv-not-giving-up.jpg',
   href: 'https://ourlittlevictories.bandcamp.com/track/not-giving-up',
   title: 'Not Giving Up',
@@ -94,5 +101,4 @@ export const releases: Release[] = [{
   type: 'Single',
   artist: 'To Arms Etc',
   description: 'Drums'
-}
-]
+}]
