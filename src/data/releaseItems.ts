@@ -8,6 +8,13 @@ export type Release = {
 }
 
 export const releases: Release[] = [{
+  imgSrc: '../../images/muttering-tyc-still-hurts.jpg',
+  href: 'https://theyachtclub.bandcamp.com/album/stumbling',
+  title: "It's Only the Beginning But It Still Hurts",
+  type: 'Single',
+  artist: "The Yacht Club & Muttering",
+  description: 'Drums'
+}, {
   imgSrc: '../../images/stumbling.jpg',
   href: 'https://theyachtclub.bandcamp.com/album/stumbling',
   title: 'Stumbling',
