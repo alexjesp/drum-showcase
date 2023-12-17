@@ -1,3 +1,8 @@
+<img src="/images/the-grace-tyc-20231209.jpg" alt="Alex Esp performing at The Grace" />
+<div class="image-credit">
+	Photo by{' '}
+	<a href="https://linktr.ee/estiejoy" target="_blank" rel="noopener noreferrer">Estie Joy</a>.
+</div>
 <div class="video-wrapper">
 	<iframe
 		title="holy-mountain"
@@ -10,7 +15,7 @@
 </div>
 <div class="image-credit">
 	Video by{' '}
-	<a href="http://simontreasure.com" target="_blank" rel="noopener noreferrer"> Simon Treasure </a>.
+	<a href="http://simontreasure.com" target="_blank" rel="noopener noreferrer">Simon Treasure</a>.
 	Original audio by{' '}<a
 		href="http://thomashillrecording.com"
 		target="_blank"
@@ -52,7 +57,7 @@
 />
 <div class="image-credit">
 	Photo by{' '}
-	<a href="http://simontreasure.com" target="_blank" rel="noopener noreferrer"> Simon Treasure </a>
+	<a href="http://simontreasure.com" target="_blank" rel="noopener noreferrer">Simon Treasure</a>
 </div>
 <img
 	src="/images/gmisadventure-still.jpg"
@@ -69,16 +74,6 @@
 		width="560"
 		height="315"
 		src="https://www.youtube.com/embed/p2E2qEtytTY?VQ=HD720"
-		frameBorder="0"
-		allowFullScreen
-	/>
-</div>
-<div class="video-wrapper">
-	<iframe
-		title="greatest-misadventure"
-		width="560"
-		height="315"
-		src="https://www.youtube.com/embed/F-M81FVcV7U?VQ=HD720"
 		frameBorder="0"
 		allowFullScreen
 	/>
