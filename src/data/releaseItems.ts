@@ -12,7 +12,7 @@ export const releases: Release[] = [{
   href: 'https://open.spotify.com/track/3jgZFrOlWRZTJQqmeK1LzG?si=F8n5yZJzR5SINGgbicmH_A',
   title: "It's Only the Beginning But It Still Hurts",
   type: 'Single',
-  artist: "The Yacht Club & Muttering",
+  artist: "The Yacht Club / Muttering",
   description: 'Drums'
 }, {
   imgSrc: '../../images/stumbling.jpg',
