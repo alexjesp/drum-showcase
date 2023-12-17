@@ -12,7 +12,7 @@ export const releases: Release[] = [{
   href: 'https://open.spotify.com/track/3jgZFrOlWRZTJQqmeK1LzG?si=F8n5yZJzR5SINGgbicmH_A',
   title: "It's Only the Beginning But It Still Hurts",
   type: 'Single',
-  artist: "The Yacht Club & Muttering",
+  artist: "The Yacht Club / Muttering",
   description: 'Drums'
 }, {
   imgSrc: '../../images/stumbling.jpg',
@@ -22,11 +22,18 @@ export const releases: Release[] = [{
   artist: "The Yacht Club",
   description: 'Drums'
 }, {
+  imgSrc: '../../images/lv-one.jpg',
+  href: 'https://ourlittlevictories.bandcamp.com/track/another-rush',
+  title: 'Another Rush',
+  type: 'Single',
+  artist: 'Little Victories',
+  description: 'Drums'
+}, {
   imgSrc: '../../images/lv-not-giving-up.jpg',
   href: 'https://ourlittlevictories.bandcamp.com/track/not-giving-up',
   title: 'Not Giving Up',
   type: 'Single',
-  artist: "Little Victories",
+  artist: 'Little Victories',
   description: 'Drums'
 },
 {
