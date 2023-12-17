@@ -22,11 +22,18 @@ export const releases: Release[] = [{
   artist: "The Yacht Club",
   description: 'Drums'
 }, {
+  imgSrc: '../../images/lv-one.jpg',
+  href: 'https://ourlittlevictories.bandcamp.com/track/another-rush',
+  title: 'Another Rush',
+  type: 'Single',
+  artist: 'Little Victories',
+  description: 'Drums'
+}, {
   imgSrc: '../../images/lv-not-giving-up.jpg',
   href: 'https://ourlittlevictories.bandcamp.com/track/not-giving-up',
   title: 'Not Giving Up',
   type: 'Single',
-  artist: "Little Victories",
+  artist: 'Little Victories',
   description: 'Drums'
 },
 {
