@@ -1,4 +1,9 @@
-<img src="/images/the-grace-tyc-20231209.jpg" alt="Alex Esp performing at The Grace" />
+<img src="/images/mothclub-tyc-202309.jpg" alt="Alex Esp performing at Moth Club, 2023" />
+<div class="image-credit">
+	Photo by{' '}
+	<a href="https://linktr.ee/estiejoy" target="_blank" rel="noopener noreferrer">Estie Joy</a>.
+</div>
+<img src="/images/the-grace-tyc-20231209.jpg" alt="Alex Esp performing at The Grace, 2023" />
 <div class="image-credit">
 	Photo by{' '}
 	<a href="https://linktr.ee/estiejoy" target="_blank" rel="noopener noreferrer">Estie Joy</a>.
