@@ -1,5 +1,5 @@
 <script>
-	import TwitterIcon from '../icons/TwitterIcon.svelte';
+	import SpotifyIcon from '../icons/SpotifyIcon.svelte';
 	import InstagramIcon from '../icons/InstagramIcon.svelte';
 	import GitHubIcon from '../icons/GitHubIcon.svelte';
 	import YouTubeIcon from '../icons/YouTubeIcon.svelte';
@@ -7,8 +7,8 @@
 
 <ul>
 	<li>
-		<a href="https://twitter.com/aespdrum" target="_blank" rel="noopener noreferrer">
-			<TwitterIcon />
+		<a href="https://open.spotify.com/playlist/4m8PLSLCebqzglQnGs6AHU?si=0b70c9200b0c4d75" target="_blank" rel="noopener noreferrer">
+			<SpotifyIcon />
 		</a>
 	</li>
 	<li>
