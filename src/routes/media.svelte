@@ -1,9 +1,19 @@
-<img src="/images/the-grace-tyc-20231209.jpg" alt="Alex Esp performing at The Grace, 2023" />
+<div class="video-wrapper">
+	<iframe
+		title="displaced-love-norwich"
+		width="560"
+		height="315"
+		src="https://www.youtube.com/embed/Sf_S9I2kjDc?VQ=HD1080&showinfo=0&modestbranding=1"
+		frameBorder="0"
+		allowFullScreen
+	/>
+</div>
+<img src="/images/mothclub-tyc-202309.jpg" alt="Alex Esp performing at Moth Club, 2023" />
 <div class="image-credit">
 	Photo by{' '}
 	<a href="https://linktr.ee/estiejoy" target="_blank" rel="noopener noreferrer">Estie Joy</a>.
 </div>
-<img src="/images/mothclub-tyc-202309.jpg" alt="Alex Esp performing at Moth Club, 2023" />
+<img src="/images/the-grace-tyc-20231209.jpg" alt="Alex Esp performing at The Grace, 2023" />
 <div class="image-credit">
 	Photo by{' '}
 	<a href="https://linktr.ee/estiejoy" target="_blank" rel="noopener noreferrer">Estie Joy</a>.
@@ -13,7 +23,7 @@
 		title="holy-mountain"
 		width="560"
 		height="315"
-		src="https://www.youtube.com/embed/jLj5Z8UWLT8?VQ=HD1080&showinfo=0&autoplay=1&modestbranding=1"
+		src="https://www.youtube.com/embed/jLj5Z8UWLT8?VQ=HD1080&showinfo=0&modestbranding=1"
 		frameBorder="0"
 		allowFullScreen
 	/>
