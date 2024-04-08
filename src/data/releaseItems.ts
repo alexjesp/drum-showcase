@@ -8,6 +8,14 @@ export type Release = {
 }
 
 export const releases: Release[] = [{
+  imgSrc: '../../images/displaced-love.jpg',
+  href: 'https://open.spotify.com/track/5ec2Bjmgj5RXThKmIyCYsK?si=7f48a030c5a947fa',
+  title: "Displaced Love",
+  type: 'Single',
+  artist: "The Yacht Club",
+  description: 'Drums / Piano'
+},  
+{
   imgSrc: '../../images/muttering-tyc-avenues.jpg',
   href: 'https://open.spotify.com/track/29EnOI8l0AP6p68gsRMnJZ?si=9840e2ac7fc343eb',
   title: "Avenues",
@@ -27,7 +35,7 @@ export const releases: Release[] = [{
   title: 'Stumbling',
   type: 'Single',
   artist: "The Yacht Club",
-  description: 'Drums'
+  description: 'Drums / Keys'
 }, {
   imgSrc: '../../images/lv-one.jpg',
   href: 'https://ourlittlevictories.bandcamp.com/track/another-rush',
