@@ -5,6 +5,29 @@
 	import YouTubeIcon from '../icons/YouTubeIcon.svelte';
 </script>
 
+<ul>
+	<li>
+		<a href="https://open.spotify.com/playlist/4m8PLSLCebqzglQnGs6AHU?si=0b70c9200b0c4d75" target="_blank" rel="noopener noreferrer">
+			<SpotifyIcon />
+		</a>
+	</li>
+	<li>
+		<a href="https://instagram.com/aespdrum" target="_blank" rel="noopener noreferrer">
+			<InstagramIcon />
+		</a>
+	</li>
+	<li>
+		<a href="https://github.com/alexjesp" target="_blank" rel="noopener noreferrer">
+			<GitHubIcon />
+		</a>
+	</li>
+	<li>
+		<a href="https://youtube.com/aespdrum" target="_blank" rel="noopener noreferrer" class="wider">
+			<YouTubeIcon />
+		</a>
+	</li>
+</ul>
+
 <style>
 	ul {
 		display: flex;
