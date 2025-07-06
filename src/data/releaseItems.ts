@@ -9,8 +9,8 @@ export type Release = {
 
 export const releases: Release[] = [{
   imgSrc: '../../images/displaced-love.jpg',
-  href: 'https://open.spotify.com/track/5ec2Bjmgj5RXThKmIyCYsK?si=7f48a030c5a947fa',
-  title: "I Don't Think I'm Ready To Be Without You",
+  href: 'https://theyachtclub.bandcamp.com/album/i-dont-think-that-i-am-ready-to-be-without-you',
+  title: "I Don't Think That I Am Ready To Be Without You",
   type: 'EP',
   artist: "The Yacht Club",
   description: 'Drums / Keys'
