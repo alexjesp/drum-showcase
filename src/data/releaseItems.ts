@@ -10,10 +10,10 @@ export type Release = {
 export const releases: Release[] = [{
   imgSrc: '../../images/displaced-love.jpg',
   href: 'https://open.spotify.com/track/5ec2Bjmgj5RXThKmIyCYsK?si=7f48a030c5a947fa',
-  title: "Displaced Love",
-  type: 'Single',
+  title: "I Don't Think I'm Ready To Be Without You",
+  type: 'EP',
   artist: "The Yacht Club",
-  description: 'Drums / Piano'
+  description: 'Drums / Keys'
 },  
 {
   imgSrc: '../../images/muttering-tyc-avenues.jpg',
