@@ -1,8 +1,8 @@
 <script>
-  import SpotifyIcon from '../icons/SpotifyIcon.svelte';
-  import InstagramIcon from '../icons/InstagramIcon.svelte';
-  import GitHubIcon from '../icons/GitHubIcon.svelte';
-  import YouTubeIcon from '../icons/YouTubeIcon.svelte';
+  import SpotifyIcon from '$lib/icons/SpotifyIcon.svelte';
+  import InstagramIcon from '$lib/icons/InstagramIcon.svelte';
+  import GitHubIcon from '$lib/icons/GitHubIcon.svelte';
+  import YouTubeIcon from '$lib/icons/YouTubeIcon.svelte';
 </script>
 
 <ul>
