@@ -7,7 +7,11 @@
 
 <ul>
 	<li>
-		<a href="https://open.spotify.com/playlist/4m8PLSLCebqzglQnGs6AHU?si=0b70c9200b0c4d75" target="_blank" rel="noopener noreferrer">
+		<a
+			href="https://open.spotify.com/playlist/4m8PLSLCebqzglQnGs6AHU?si=0b70c9200b0c4d75"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
 			<SpotifyIcon />
 		</a>
 	</li>

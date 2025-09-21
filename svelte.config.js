@@ -1,22 +1,12 @@
 import adapter from '@sveltejs/adapter-netlify';
-import preprocess from 'svelte-preprocess';
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-  // Consult https://github.com/sveltejs/svelte-preprocess
-  // for more information about preprocessors
-  preprocess: preprocess(),
-
-  kit: {
-    adapter: adapter(),
-
-    // hydrate the <div id="svelte"> element in src/app.html
-    target: '#svelte',
-
-    serviceWorker: {
-      register: false
-    }
-  }
+	// Consult https://svelte.dev/docs/kit/integrations
+	// for more information about preprocessors
+	preprocess: vitePreprocess(),
+	kit: { adapter: adapter() }
 };
 
 export default config;

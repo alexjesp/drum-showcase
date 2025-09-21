@@ -1,3 +1,7 @@
+<script>
+	import { asset } from '$app/paths';
+</script>
+
 <div class="video-wrapper">
 	<iframe
 		title="displaced-love-norwich"
@@ -6,17 +10,22 @@
 		src="https://www.youtube.com/embed/Sf_S9I2kjDc?VQ=HD1080&showinfo=0&modestbranding=1"
 		frameBorder="0"
 		allowFullScreen
-	/>
+	></iframe>
 </div>
-<img src="/images/mothclub-tyc-202309.jpg" alt="Alex Esp performing at Moth Club, 2023" />
+<img src={asset('/images/mothclub-tyc-202309.jpg')} alt="Alex Esp performing at Moth Club, 2023" />
 <div class="image-credit">
-	Photo by{' '}
-	<a href="https://linktr.ee/estiejoy" target="_blank" rel="noopener noreferrer">Estie Joy</a>.
+	Photo by <a href="https://linktr.ee/estiejoy" target="_blank" rel="noopener noreferrer"
+		>Estie Joy</a
+	>.
 </div>
-<img src="/images/the-grace-tyc-20231209.jpg" alt="Alex Esp performing at The Grace, 2023" />
+<img
+	src={asset('/images/the-grace-tyc-20231209.jpg')}
+	alt="Alex Esp performing at The Grace, 2023"
+/>
 <div class="image-credit">
-	Photo by{' '}
-	<a href="https://linktr.ee/estiejoy" target="_blank" rel="noopener noreferrer">Estie Joy</a>.
+	Photo by <a href="https://linktr.ee/estiejoy" target="_blank" rel="noopener noreferrer"
+		>Estie Joy</a
+	>.
 </div>
 <div class="video-wrapper">
 	<iframe
@@ -26,11 +35,9 @@
 		src="https://www.youtube.com/embed/EKQPWwweovc?VQ=HD1080&showinfo=0&modestbranding=1"
 		frameBorder="0"
 		allowFullScreen
-	/>
+	></iframe>
 </div>
-<div class="image-credit">
-	Performing on Audiotree with Modern Rituals 2022 
-</div>
+<div class="image-credit">Performing on Audiotree with Modern Rituals 2022</div>
 <div class="video-wrapper">
 	<iframe
 		title="holy-mountain"
@@ -39,39 +46,38 @@
 		src="https://www.youtube.com/embed/jLj5Z8UWLT8?VQ=HD1080&showinfo=0&modestbranding=1"
 		frameBorder="0"
 		allowFullScreen
-	/>
+	></iframe>
 </div>
 <div class="image-credit">
-	Video by{' '}
-	<a href="http://simontreasure.com" target="_blank" rel="noopener noreferrer">Simon Treasure</a>.
-	Original audio by{' '}<a
-		href="http://thomashillrecording.com"
-		target="_blank"
-		rel="noopener noreferrer"
-	>
-		Tom Hill
-	</a>
-</div>
-<img src="/images/tyc-lp1-launch.jpg" alt="Alex Esp performing at The Yacht Club's album launch" />
-<div class="image-credit">
-	Photo by{' '}
-	<a href="http://simontreasure.com" target="_blank" rel="noopener noreferrer"> Simon Treasure </a>
+	Video by <a href="http://simontreasure.com" target="_blank" rel="noopener noreferrer"
+		>Simon Treasure</a
+	>. Original audio by
+	<a href="http://thomashillrecording.com" target="_blank" rel="noopener noreferrer"> Tom Hill </a>
 </div>
 <img
-	src="/images/20707168_10155534017635396_1439614710_oEDIT.jpg"
+	src={asset('/images/tyc-lp1-launch.jpg')}
+	alt="Alex Esp performing at The Yacht Club's album launch"
+/>
+<div class="image-credit">
+	Photo by <a href="http://simontreasure.com" target="_blank" rel="noopener noreferrer">
+		Simon Treasure
+	</a>
+</div>
+<img
+	src={asset('/images/20707168_10155534017635396_1439614710_oEDIT.jpg')}
 	alt="Alex Esp recording The Yacht Club LP1 at Holy Mountain Studios"
 />
 <div class="image-credit">
-	Photo by{' '}
-	<a href="http://simontreasure.com" target="_blank" rel="noopener noreferrer"> Simon Treasure </a>
+	Photo by <a href="http://simontreasure.com" target="_blank" rel="noopener noreferrer">
+		Simon Treasure
+	</a>
 </div>
 <img
-	src="/images/theyachtclub-fall-promo.jpg"
+	src={asset('/images/theyachtclub-fall-promo.jpg')}
 	alt="Alex Esp in The Yacht Club Fall band shot in a field"
 />
 <div class="image-credit">
-	Photo by{' '}
-	<a
+	Photo by <a
 		href="https://www.facebook.com/CatherineBridgmanPhotographer"
 		target="_blank"
 		rel="noopener noreferrer"
@@ -80,22 +86,23 @@
 	</a>
 </div>
 <img
-	src="/images/IMG_6194.jpg"
+	src={asset('/images/IMG_6194.jpg')}
 	alt="Alex Esp recording The Yacht Club LP1 at Holy Mountain Studios"
 />
 <div class="image-credit">
-	Photo by{' '}
-	<a href="http://simontreasure.com" target="_blank" rel="noopener noreferrer">Simon Treasure</a>
+	Photo by <a href="http://simontreasure.com" target="_blank" rel="noopener noreferrer"
+		>Simon Treasure</a
+	>
 </div>
 <img
-	src="/images/gmisadventure-still.jpg"
+	src={asset('/images/gmisadventure-still.jpg')}
 	alt="Alex Esp playing in The Yacht Club's Greatest Misadventure music video"
 />
 <img
-	src="/images/motb-video.jpg"
+	src={asset('/images/motb-video.jpg')}
 	alt="Alex Esp playing in The Yacht Club's Mouth of the Beast music video"
 />
-<img src="/images/c2c.jpg" alt="Alex Esp performing at C2C festival" />
+<img src={asset('/images/c2c.jpg')} alt="Alex Esp performing at C2C festival" />
 <div class="video-wrapper">
 	<iframe
 		title="mouth-of-the-beast"
@@ -104,7 +111,7 @@
 		src="https://www.youtube.com/embed/p2E2qEtytTY?VQ=HD720"
 		frameBorder="0"
 		allowFullScreen
-	/>
+	></iframe>
 </div>
 <div class="video-wrapper">
 	<iframe
@@ -114,7 +121,7 @@
 		src="https://www.youtube.com/embed/sqIIejUIQfc?VQ=HD720"
 		frameBorder="0"
 		allowFullScreen
-	/>
+	></iframe>
 </div>
 
 <style>

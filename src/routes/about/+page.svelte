@@ -1,5 +1,9 @@
+<script>
+	import { asset } from '$app/paths';
+</script>
+
 <img
-	src="/images/IMG_2921.jpg"
+	src={asset('/images/IMG_2921.jpg')}
 	alt="Alexander Esp playing piano in a denim jacket at Bookhouse Studios"
 />
 <div class="img-credit">Photo by Treasure Digital.</div>

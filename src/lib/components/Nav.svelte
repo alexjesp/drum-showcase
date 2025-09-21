@@ -1,7 +1,11 @@
+<script>
+	import { resolve } from '$app/paths';
+</script>
+
 <ul>
-	<li><a href="/about">About</a></li>
-	<li><a href="/releases">Releases</a></li>
-	<li><a href="/media">Media</a></li>
+	<li><a href={resolve('/about')}>About</a></li>
+	<li><a href={resolve('/releases')}>Releases</a></li>
+	<li><a href={resolve('/media')}>Media</a></li>
 	<li>
 		<a href="mailto:contact@alexesp.co.uk" target="_blank" rel="noopener noreferrer">Contact</a>
 	</li>

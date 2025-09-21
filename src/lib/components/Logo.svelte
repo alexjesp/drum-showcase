@@ -1,5 +1,9 @@
+<script>
+	import { resolve } from '$app/paths';
+</script>
+
 <h1>
-	<a href="/">
+	<a href={resolve('/')}>
 		<span class="big">Alex</span>
 		<span class="small-wrapper">
 			<span class="small">Esp</span>
