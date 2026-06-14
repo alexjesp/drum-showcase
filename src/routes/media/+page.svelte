@@ -2,6 +2,12 @@
   import { asset } from '$app/paths';
 </script>
 
+<img src={asset('/images/tyc-sofa-2026.jpg')} alt="Alex Esp with The Yacht Club, 2026" />
+<div class="image-credit">
+  Photo by <a href="https://linktr.ee/estiejoy" target="_blank" rel="noopener noreferrer"
+    >Estie Joy</a
+  >.
+</div>
 <div class="video-wrapper">
   <iframe
     title="displaced-love-norwich"
