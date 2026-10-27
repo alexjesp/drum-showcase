@@ -4,3 +4,10 @@ onlyBuiltDependencies:
 minimumReleaseAge: 10080 # 7 days
 
 trustPolicy: no-downgrade
+
+overrides:
+  "chokidar": "^5.0.0"
+  "undici-types": "6.29.1"
+
+minimumReleaseAgeExclude:
+  - magic-string@1.4.5

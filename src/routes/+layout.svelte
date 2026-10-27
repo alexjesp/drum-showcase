@@ -1,6 +1,6 @@
 <script lang="ts">
-  import favicon from '$lib/assets/favicon.ico';
-  import Layout from '$lib/components/Layout.svelte';
+  import favicon from '#lib/assets/favicon.ico';
+  import Layout from '#lib/components/Layout.svelte';
 
   let { children } = $props();
 </script>

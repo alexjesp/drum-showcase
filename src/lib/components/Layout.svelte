@@ -1,7 +1,7 @@
 <script>
-  import Logo from '$lib/components/Logo.svelte';
-  import Nav from '$lib/components/Nav.svelte';
-  import Social from '$lib/components/Social.svelte';
+  import Logo from '#lib/components/Logo.svelte';
+  import Nav from '#lib/components/Nav.svelte';
+  import Social from '#lib/components/Social.svelte';
 </script>
 
 <div class="container">
